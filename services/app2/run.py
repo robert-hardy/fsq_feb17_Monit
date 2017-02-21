@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_homepage():
-    return Response('Hello from app2.')
+    return Response('Hello from app2.\n')
 
 
 if __name__ == '__main__':
