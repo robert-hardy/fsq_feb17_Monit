@@ -1,0 +1,3 @@
+check process app2 with pidfile /home/robert/k/pidfiles/app2.pid
+  start program = "/home/robert/k/services/app2/controller.sh start"
+  stop program = "/home/robert/k/services/app2/controller.sh stop"
