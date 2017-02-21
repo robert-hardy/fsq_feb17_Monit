@@ -6,7 +6,8 @@ case $CMD in
         echo $! > /home/robert/k/pidfiles/app1.pid
         ;;
     stop)
-        echo Stopping
+        PID=$(cat /home/robert/k/pidfiles/app1.pid)
+        kill $PID
         ;;
 esac
 exit 0
