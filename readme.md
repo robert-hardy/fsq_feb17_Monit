@@ -31,3 +31,5 @@ Therefore, the routine is:
     source install.sh
     sudo monit reload
     sudo service nginx restart
+
+Now visit `localhost:8080` repeatedly and see a message from `app1` and `app2`.
